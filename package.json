@@ -1,0 +1,14 @@
+{
+  "name": "cfb-data",
+  "version": "1.0.0",
+  "description": "This repo is going to be full of functions that run on the data available at [collegefootballdata.com](collegefootballdata.com).",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc src/index.ts",
+    "download": "node src/download.js",
+    "analyze": "node src/analyze.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pjflanagan",
+  "license": "ISC"
+}
